@@ -1,0 +1,59 @@
+.skills {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 10rem 10rem 10rem 10rem;
+  padding: 1rem;
+  padding-top: 0;
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+
+  
+  &__icon {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    color: #adb5bd;
+    
+    &--vue {
+      color: #47b784;
+    }
+
+    &--sketch {
+      color: #f89f2e;
+    }
+
+    &--html {
+      color: #e86233;
+    }
+
+    &--sass {
+      color: #c56695;
+    }
+
+    &--css {
+      color: #32a5d7;
+    }
+
+    &--js {
+      color: #f6d34c;
+    }
+
+    &--figma {
+      color: #868e96;
+    }
+  }
+}
+
+
+@media(max-width: 700px) {
+  .skills {
+    grid-template-columns: 10rem 10rem 10rem;
+  }
+  
+}
+
+@media(max-width: 500px) {
+  .skills {
+    margin-left: 2rem;
+    grid-template-columns: 10rem 10rem;
+  }
+}
